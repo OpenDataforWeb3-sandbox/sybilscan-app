@@ -1,0 +1,50 @@
+{
+  "name": "chakra-play",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.2",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@lottiefiles/lottie-player": "^1.5.7",
+    "@supabase/supabase-js": "^2.5.0",
+    "apexcharts": "^3.36.3",
+    "chakra-react-select": "^4.4.3",
+    "chakra-ui-markdown-renderer": "^4.1.0",
+    "framer-motion": "^6.3.10",
+    "gray-matter": "^4.0.3",
+    "mysql2": "^2.3.3",
+    "next": "12.1.6",
+    "nextjs-google-analytics": "^2.0.0",
+    "node-fetch": "^2.6.7",
+    "react": "18.1.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.6.0",
+    "react-in-viewport": "^1.0.0-alpha.28",
+    "react-markdown": "^8.0.3",
+    "react-player": "^2.10.1",
+    "react-rewards": "^2.0.4",
+    "react-slick": "^0.29.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-table": "^7.8.0",
+    "react-vertical-timeline-component": "^3.5.2",
+    "rehype-raw": "^6.1.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "jest": "^28.1.1",
+    "next-sitemap": "^3.1.13"
+  }
+}
